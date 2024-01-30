@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/news_image_height">
+
+    <ImageView
+        android:id="@+id/news_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/blur_view_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/blur_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/news_title_margin_start"
+        android:layout_marginEnd="@dimen/news_title_margin_start"
+        android:layout_marginBottom="@dimen/news_title_margin_bottom"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

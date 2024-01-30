@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="news_image_height">160dp</dimen>
+    <dimen name="welcome_text_dimen">20sp</dimen>
+    <dimen name="blur_view_height">100dp</dimen>
+    <dimen name="news_title_margin_start">30dp</dimen>
+    <dimen name="news_title_margin_bottom">20dp</dimen>
+</resources>
